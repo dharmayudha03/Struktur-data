@@ -2,12 +2,12 @@
 using namespace std;
 
 int Faktorial(int n){
-        if((n == 0) || (n == 1)){
-            return (1);
-        }else {
-            return (n * Faktorial(n-1));
-        }
+    if((n == 0) || (n == 1)){
+        return (1);
+    }else {
+        return (n * Faktorial(n-1));
     }
+}
 
 void Rekursif(){
     for (int a = 5; a >= 1; a--) {
